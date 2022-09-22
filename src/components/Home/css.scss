@@ -1,0 +1,70 @@
+.home{
+  
+
+    .text-container{
+        position: absolute;
+        left: 15%;
+        top: 40%;
+        transform: translateY(-50%,);
+        width: 50%;
+        max-height: 90%;
+        font-family: 'Montserrat', sans-serif;
+        
+
+
+    }
+    h1{
+        font-size: 50px;
+        color: #fff;
+        margin: 0px;
+        font-weight: 300;
+        margin-bottom: 0px;
+        // font-family: ;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+        span{
+            color: rgb(255, 5, 5);
+            opacity: 55%;
+        }   
+    }
+    h2{
+        font-size: 20px;
+        color: #fff;
+        margin: 0px;
+        font-weight: 300;
+        margin-bottom: 0px;
+        // font-family: ;
+        font-weight: 500 ;
+        font-family: 'Montserrat', sans-serif;
+        animation: Fadein 1s 1.8s backwards;
+        
+        .italy{ 
+            background: -webkit-linear-gradient(180deg, rgba(144,0,0,1) 0%, rgb(255, 255, 255) 50%, rgba(38,111,0,1) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        }
+    }
+    .button{
+        text-decoration: none;
+        color: rgb(38, 78, 255);
+        font-size: 25px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        padding: 18px 20px;
+        border: 2px solid rgb(38, 78, 255);
+        margin-top: 20px;
+        float: left;
+        animation: Fadein 1s 1.8s backwards;
+        white-space: nowrap;
+
+
+        &:hover{
+            background-color: rgb(38, 78, 255);
+            color: #fff;
+            transition: 0.5s;
+        }
+
+
+    }
+}
